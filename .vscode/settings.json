@@ -1,0 +1,8 @@
+{
+    "appService.zipIgnorePattern": [
+        "node_modules{,/**}",
+        ".vscode{,/**}"
+    ],
+    "appService.defaultWebAppToDeploy": "/subscriptions/e35e3ed6-5cd0-42f9-ba2b-d48c7849a4bc/resourceGroups/DMT-sportest/providers/Microsoft.Web/sites/DMT-sportest-app",
+    "appService.deploySubpath": "."
+}
