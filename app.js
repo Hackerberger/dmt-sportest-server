@@ -4,26 +4,23 @@ var cookieParser = require('cookie-parser');
 var logger = require('morgan');
 var history = require('connect-history-api-fallback');
 
-var indexRouter = require('./routes/index');
-var usersRouter = require('./routes/users');
 
 var app = express();
 
+app.use(
+  history({
+    verbose: true,
+  }),
+);
 app.use(logger('dev'));
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
-// app.use(express.static(path.join(__dirname, 'public')));
-app.use(
-  history({
-    verbose: true,
-    index: "index.html"
-  }),
-);
+app.use(express.static(path.join(__dirname, 'public')));
+
 
 // app.get('/', function (req, res) {
 //   res.sendFile(path.join(__dirname, 'public/index.html'));
 // });
-//app.use('/', indexRouter);
 
 module.exports = app;
