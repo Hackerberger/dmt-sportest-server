@@ -40,8 +40,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/chrome/chrome-installprocess-512-512.png"
   },
   {
-    "revision": "f4fe1de7373e6fae4791",
-    "url": "/css/app.7a3daf6a.css"
+    "revision": "5a8fbe8b3e9bffb79bfe",
+    "url": "/css/app.70b10713.css"
   },
   {
     "revision": "2f7577861da6592fc926",
@@ -92,12 +92,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/img/Logo/Logo-dmt.jpg"
   },
   {
-    "revision": "a63dd83206bba8ff3aff3ed136cab489",
+    "revision": "77b83bdcdbeb786a8bb353d8e8e99f39",
     "url": "/index.html"
   },
   {
-    "revision": "f4fe1de7373e6fae4791",
-    "url": "/js/app.0143c81f.js"
+    "revision": "5a8fbe8b3e9bffb79bfe",
+    "url": "/js/app.42ccf75b.js"
   },
   {
     "revision": "2f7577861da6592fc926",
