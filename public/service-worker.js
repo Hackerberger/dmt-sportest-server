@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/precache-manifest.16a90f136346cf3b053cf6ac43ea3f78.js"
+  "/precache-manifest.a546e7e0154e78f69f87d6ca2d0a8d8b.js"
 );
 
 workbox.core.setCacheNameDetails({prefix: "dmt-sportest"});
